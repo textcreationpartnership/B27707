@@ -1,0 +1,718 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The passion of Byblis made English, from Ovid, Meami [sic] Lib. 9 / by Mr. Dennis.</title>
+            <title>Metamorphoses. English</title>
+            <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 49 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B27707</idno>
+            <idno type="STC">Wing O690</idno>
+            <idno type="EEBO-CITATION">11766908</idno>
+            <idno type="OCLC">ocm 11766908</idno>
+            <idno type="VID">205107</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B27707)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 205107)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1490:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The passion of Byblis made English, from Ovid, Meami [sic] Lib. 9 / by Mr. Dennis.</title>
+                  <title>Metamorphoses. English</title>
+                  <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
+                  <author>Dennis, John, 1657-1734.</author>
+               </titleStmt>
+               <extent>[12], 27 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Rich. Parker ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: pages stained and torn with print show-through.</note>
+                  <note>Reproduction of original in the Harvard UniversityLibrary.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Latin literature --  Translations into English.</term>
+               <term>English literature --  Translations from Latin.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-11</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-11</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:205107:1"/>
+            <pb facs="tcp:205107:1" rendition="simple:additions"/>
+            <p>THE PASSION OF BYBLIS, Made <hi>Engliſh.</hi>
+            </p>
+            <p>From <hi>Ovid. Me am. Lib.</hi> 9.</p>
+            <p>By Mr. <hi>Dennis.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Rich. Parker</hi> at the <hi>
+                  <g ref="char:V">Ʋ</g>nicorn</hi> under the Piazza of the <hi>Royal Exchange,</hi> 1692.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:205107:2" rendition="simple:additions"/>
+            <pb facs="tcp:205107:2"/>
+            <head>THE PREFACE.</head>
+            <p>THE Paſſion of <hi>Byblis</hi> ſeems to be, in the Ori<g ref="char:EOLhyphen"/>ginal, not only one of <hi>Ovid</hi>'s moſt maſterly pieces, but a Paſſion in ſome places the moſt happily touch'd of any that I have ſeen amongſt the An<g ref="char:EOLhyphen"/>cients or Moderns. The Sentiments are ſo tender and yet ſo delicate, the expreſſions ſo fit and withal ſo eaſie, with that facility which is proper to expreſs Love, and peculiar to this Charming Poet; the turns of Paſſion are ſo ſurprizing and yet ſo natural, and there ſeems to be ſomething in the very ſound of the Verſe ſo ſoft and ſo pa<g ref="char:EOLhyphen"/>thetick, that a man who reads the Original, muſt have no ſenſe of theſe matters if he is not tranſported with it.</p>
+            <p>When I was deſir'd to make it <hi>Engliſh,</hi> I read over the Original to ſome men of ſenſe, to ſee whether they would be touch'd with the ſame paſſages with which I had been mov'd ſo much. And when I ſaw that I was not miſtaken, I reſolv'd to imitate them in our native tongue, with as much addreſs as I could.</p>
+            <p>Not that I am of the opinion that I have done ju<g ref="char:EOLhyphen"/>ſtice to the admirable Original; but then you muſt give me leave to do ſome to my ſelf; and as I would not have
+<pb facs="tcp:205107:3"/>my faults imputed to <hi>Ovid,</hi> ſo, ſince I have ſo many of my own to account for, I do not deſire to ſtand charg'd with his, which as his Tranſlator I was oblig'd to copy.</p>
+            <p>I will chiefly take Notice of two, the one general, and the other particular. The general one is the Incon<g ref="char:EOLhyphen"/>ſiſtency that appears in the Character of <hi>Byblis.</hi> For ſhe, who in ſome Places of her Paſſion appears ſo relu<g ref="char:EOLhyphen"/>ctant, ſeems too abandon'd in others; which are two or three Paſſages of her Letter (for from the beginning of the Story to the Letter, every thing ſeems to me to be juſt enough) in which ſhe ſays ſome things that are by no means conſiſtent with that Modeſty, which ſhe ought to have, as a Lady, a Virgin, and a Woman of Honor. I know very well that a Woman of Honor, when once ſhe is ſeiz'd by a great Paſſion, has more violent Deſires than the moſt abandon'd Woman can have. For aban<g ref="char:EOLhyphen"/>don'd Women are conſequently weak, and it is a true Obſervation, that weak People, tho they are ſubject to Paſ<g ref="char:EOLhyphen"/>ſions at every turn, yet are they never throughly agitated by them. But this is moſt certain, that a Woman of Ho<g ref="char:EOLhyphen"/>nor can never break out into immodeſt Expreſſions, let her Paſſion be never ſo violent. For Immodeſty in Expreſ<g ref="char:EOLhyphen"/>ſion muſt ſhow her profligate to the very laſt Degree, and muſt be utterly inconſiſtent with any meaſure of Honor. Now <hi>Byblis,</hi> who ſhows in ſome places ſo much of Honor, by ſuch ſharp Remorſe, and ſuch furious Reluctancy, ought certainly to have contented her ſelf with a bare Con<g ref="char:EOLhyphen"/>feſſion of her Paſſion; and not to have behav'd her ſelf
+<pb facs="tcp:205107:3"/>as if ſhe thought her Brother ſo very young, that he was to be inſtructed how to proceed in the Cure of it.</p>
+            <p>It may be ſaid perhaps that the Relation of the Dream, which precedes the Letter, is the moſt immodeſt thing in the Story. I will eaſily grant it, and that that Relation is in the original, the moſt alluring deſcription that can be imagin'd, and almoſt equally tranſporting with what it deſcribes. But it muſt then be conſider'd that what <hi>Byblis</hi> ſays there, ſhe only ſpeaks to her ſelf, which a<g ref="char:EOLhyphen"/>mounts to no more than if ſhe but barely thought it. And there is nothing certainly in that Reflection on her Dream, but what is extreamly natural.</p>
+            <p>The ſecond Fault in this Paſſion of <hi>Byblis,</hi> is in the paſſage that immediately follows the return of the Meſſen<g ref="char:EOLhyphen"/>ger. For that which ought to be the moſt moving, is the coldeſt part of the Story. I ſpeak of the firſt thirteen Lines of the <hi>Latin</hi> (for all that follows ſeems to be ſuf<g ref="char:EOLhyphen"/>ficiently warm) where <hi>Byblis,</hi> who can ſcarce ſpeak for the Violence of her Grief, is yet for ſpeaking in Allegory; which is nothing but an imperfect kind of Similitude.</p>
+            <p>Now Simile in this place could not be moving, becauſe it could not be natural; it being by no means the Lan<g ref="char:EOLhyphen"/>guage of great Grief. For to be in a capacity to make a good ſimilitude, the Mind muſt have ſeveral qualificati<g ref="char:EOLhyphen"/>ons, and two more particularly; which are utterly incon<g ref="char:EOLhyphen"/>ſiſtent with that Paſſion. Firſt, The Soul muſt be ſuſcep<g ref="char:EOLhyphen"/>tible of a great many Idea's, and the Imagination capaci<g ref="char:EOLhyphen"/>ous of a great many Images. For the Fancy muſt run
+<pb facs="tcp:205107:4"/>thro, and compare a great many Objects, before it can ſtart a hint from them, which may carry with it that ap<g ref="char:EOLhyphen"/>pearance of likeneſs which may afterward by the Judg<g ref="char:EOLhyphen"/>ment be improved to an exact reſemblance (not but that I know very well, that the Soul on thoſe occaſions acts with that prodigious Celerity, that it is its ſelf inſenſible of the degrees of its own motion.) Now it is the Nature of Grief to confine the Soul, and ſtraiten the Imagination, and extreamly to leſſen the number of their Objects. And indeed if the Paſſion is very violent, a man is inceſſantly thinking of the cauſe of it. For example, the unfortu<g ref="char:EOLhyphen"/>nate Lover has eternally before his Eyes, the Image of his Cruel Fair-one. He thinks Day and Night of her alone, he contemplates nothing but her, and if he complains of her, 'tis only after that ſimple unaffected way, by which Nature teaches man to diſcharge his Soul of ſorrow. And it is for this very reaſon that the greater part of Mr. <hi>Cow<g ref="char:EOLhyphen"/>ley</hi>'s amorous Verſes are univerſally exploded by men of ſence, at the ſame time that they confeſs, that ſeveral of his Miſcellaneous Writings, his Pindaric Odes, and his Di<g ref="char:EOLhyphen"/>vine Hymn to Light, will juſtly deſerve the Admiration of our lateſt Poſterity. For in moſt of thoſe amorous Verſes, there appears thro the diſguiſe of an affected Paſſion, a Gayety of Heart, a Wantonneſs of Wit, and a Soul that's at Liberty to roam about the <g ref="char:V">Ʋ</g>niverſe, and return home laden with rich, but far fetch'd Conceits. As merry in this reſpect as the Madrigals of our amorous Rakehells; who languiſh in Simile, whilſt they thrive in Carkaſs; and who eating their Half-Crowns
+<pb facs="tcp:205107:4"/>every day thrice, decay and dye by Metaphor. In ſhort, no ſort of imagery ever can be the Language of Grief. If a man complains in Simile, I either laugh or ſleep. For this is plain, that if a man's Affliction will ſuffer him to divert his mind by one Simile, he may as well do it by twenty, and ſo on to the end of the Chapter. If ſuch a man therefore is miſerable, it is becauſe he is reſolved he will be ſo. Now a man muſt have an extraordinary stock of good Nature, who can pity a Blockhead, who is a Wretch by choice.</p>
+            <p>But ſecondly, For the Mind to be capable of making Similitudes, it is neceſſary it ſhould be ſerene (unleſs it be tranſported with that noble Euthuſiaſm, which delights, illuminates, and exalts the Soul, at the very ſame time it diſturbs it.) For without Serenity a man can never have Penetration enough to diſcern the Nature of things, which Penetration is abſolutely neceſſary for the making a juſt Similitude; And it is upon this very account that <hi>Ariſto<g ref="char:EOLhyphen"/>tle</hi> ſays in his Rhetorick, that to be happy in making Similitudes, it is abſolutely neceſſary to be a man of good Sence.</p>
+            <p>Some of my Friends, to whom I have recited in Con<g ref="char:EOLhyphen"/>verſation, the ſubſtance of what I have here repeated in Writing, have adviſed me to leave out this unſeaſonable Similitude, eſpecially ſince I have made ſo bold with <hi>Ovid,</hi> as to inſert here and there a Thought of my own. For it is my Lord <hi>Roſcommon</hi>'s opinion, that it is much ſafer to leave out than add. Tho no man pays more deference
+<pb facs="tcp:205107:5"/>to his Judgment than I do, I cannot be of his mind in this. For tho I am not ignorant that a ſcurvy preſent, is but a more civil Affront; I cannot but believe it to be leſs injurious than a Robbery. And if any man ſhould be caught, <hi>ipſo facto,</hi> ſtripping another upon the Road, it would be but an impudent excuſe in him, to alledge that the Cloaths but ill became their Owner. All that I could do here, was by giving this paſſage another turn, to make that appear in the Copy to be ſpoken in a ſhort, but down<g ref="char:EOLhyphen"/>right Fury, whoſe fault it was in the original to ſeem to be ſpoken with too much Conſiderateneſs, and too much Coolneſs of Temper.</p>
+            <p>The Author of the Satyrs upon the Jeſuits, who has tranſlated this Paſſion of <hi>Byblis,</hi> has not meddled with the Cataſtrophe. Now the Cataſtrophe was abſolutely neceſſa<g ref="char:EOLhyphen"/>ry, that the Story at ending might make a deeper impreſ<g ref="char:EOLhyphen"/>ſion: I have therefore contracted it in the laſt five Lines, but at the ſame time I have alter'd it. For to make it moving it was neceſſary to make it credible.</p>
+            <p>The Transformation of <hi>Byblis</hi> might do very well in the time of <hi>Auguſtus Caeſar.</hi> For at that time thoſe Tranſ<g ref="char:EOLhyphen"/>formations were a part of the <hi>Roman</hi> Religion, and the Poets may be ſaid to be the Secular Prieſts, who tranſmit<g ref="char:EOLhyphen"/>ted its myſteries to the People. But thoſe tranſubſtantia<g ref="char:EOLhyphen"/>ting Doctrines, which were taught in thoſe times by that Harmonious Clergy of the credulous Church of old <hi>Rome,</hi> would look as abſurdly to us as the Chimerical Metamor<g ref="char:EOLhyphen"/>phoſis, which is pretended to be acted at the very time it is ſung in our modern <hi>Roman</hi> Churches.</p>
+            <pb facs="tcp:205107:5"/>
+            <p>I muſt beg pardon for the Liberty which I have taken in the numbers, which is ſo great that it may well be entitled Licenſe. But then the Reader will have the greater Variety, and if thoſe Numbers are not harmoni<g ref="char:EOLhyphen"/>ous, it is not for want of care about them. I have par<g ref="char:EOLhyphen"/>ticularly taken care to be exact in the Rimes, in which the former Tranſlators of this paſſage have been very defective. I am not ſo miſerably miſtaken, as to think riming eſſential to our <hi>Engliſh</hi> Poetry. I am far better acquainted with <hi>Milton,</hi> than that comes too. Who without the aſſiſtance of Rime, is one of the moſt ſublime of our <hi>Engliſh</hi> Poets. Nay, there is ſomething ſo tranſcendently ſublime in his firſt, ſecond, and ſixth Books, that were the Language as pure as the Images are vaſt and daring, I do not believe it could be equall'd, no, not in all antiquity. But tho I know that Ri<g ref="char:EOLhyphen"/>ming is not abſolutely neceſſary to our Verſification, yet I am for having a man do throughly what he has once pretended to do. Writing in blank Verſe looks like a contempt of Rime, and a generous diſdain of a barba<g ref="char:EOLhyphen"/>rous Cuſtom; but Writing in ſuch Rimes as a Boy may laugh at, at <hi>Crambo,</hi> looks at the beſt like a fruitleſs attempt, and an impotent Affectation.</p>
+            <p>My Lord <hi>Roſcommon</hi> who writ in blank Verſe with ſo much ſucceſs, yet was nicely exact in Riming, when<g ref="char:EOLhyphen"/>ever he pretended to rime. And in the very eſſay upon tranſlated Verſe in which he exclaims againſt Rime, I
+<pb facs="tcp:205107:6"/>defy any man to ſhow me half a dozen couplets which do not rime exactly.</p>
+            <p>In ſhort, if riming is ever neceſſary in ſo ſtrong and maſculine a Language as ours, it muſt be on theſe ten<g ref="char:EOLhyphen"/>der occaſions. For tho I have heard ſeveral maintain, that a thing may be expreſſed as nobly and vigorouſly in blank Verſe, as in Rime; I never yet heard any one pre<g ref="char:EOLhyphen"/>tend that it might be expreſſed as ſoftly. But granting it could, it is yet very certain, that a thing muſt be much more tender in perfect Rimes, than imperfect. For where the Reader expects a Rime, there jarring ſounds muſt render that harſh, which agreeing ſounds would render eaſie. But then it is neceſſary that the Rimes ſhould be unconſtrained, and no word us'd upon their account in the place where it is not proper.</p>
+            <p>But ſince I have mention'd Mr <hi>Oldham</hi>'s performance, in this Tranſlation, I think fit to add further, that I have been told by ſome, that a great many will never for<g ref="char:EOLhyphen"/>give me the attempting it after him. I deſire them to conſider, that the ſame Mr. <hi>Oldham</hi> undertook <hi>Horace</hi>'s Art of Poetry after my Lord <hi>Roſcommon.</hi> Now my Lord <hi>Roſcommon</hi> was Politeneſs it ſelf. Never man thought more clearly, more truly, more juſtly than he did; never man expreſſ'd himſelf more fitly and more becomingly. In eve<g ref="char:EOLhyphen"/>ry thing that he writ, his Language was as perfect as his Conceptions were often ſublime. On every thing that came from him, he has ſtamp'd the character not only of an exalted
+<pb facs="tcp:205107:6"/>Wit, but of a man of a high Condition, and of a courtly Mind.</p>
+            <p>If I ſhould affirm that Mr. <hi>Oldham</hi> had by no means all the good Qualities which are conſpicuous in my Lord <hi>Roſcommon,</hi> who is there that muſt not aſſent to it? If then I am guilty of preſumption in attempting what Mr. <hi>Oldham</hi> undertook before me, I hope I may be excuſed by his own example. But if ſome People yet can reſolve to be angry, I muſt beg them to conſider for what. Is it becauſe I have a deſire to pleaſe them? That methinks is unnatural. Tho I ſhould own, I have an Ambition to give them more Delight than the fore-mentioned Gentle<g ref="char:EOLhyphen"/>man has done before me, I cannot ſee any thing in ſuch a Confeſſion which can reaſonably diſoblige them. Such an knowledgment ought rather to gain me their Favor, or at leaſt to conquer their Prejudice, eſpecially ſince 'tis the intereſt of every Reader to be as candid as the Caſe will let him be. 'Tis true, a man of ſence can never be ſatisfi'd with a ſilly thing. But a peeviſh, unreaſonable Caviller, will never be ſatisfied with any thing. Little conſidering that by a falſe delicacy he makes himſelf paſs thoſe moments ſcurvily, which another perhaps has done his part to make him paſs agreeably.</p>
+            <p>Beſides, if I ſhould ſucceed here, ev'n beyond my wiſh, I ſhould be very far upon that ſcore, from arrogating Prehe<g ref="char:EOLhyphen"/>minence over any man. The following Tranſlation is a trifle, and can never be concluſive of any ſuch thing. To ſucceed in
+<pb facs="tcp:205107:7"/>it required neither Force nor Genius, but only a Tenderneſs of Soul (which Mr. <hi>Oldham</hi>'s maſculine temper diſdain'd) and an extraordinary propenſity to that humane frailty, Com<g ref="char:EOLhyphen"/>paſſion; and a certain Felicity which uſually accompanies the dictates of the ſofter Paſſions. To conclude, I leave it to any one to conſider whether a Satyrist, as Mr. <hi>Oldham</hi> was, at the very time that, inſpir'd by a generous rage, he had aſſum'd a reſolution of expoſing the Follies, and laſhing the Vices of the Age, could be fitly diſpos'd to ex<g ref="char:EOLhyphen"/>cite Compaſſion; by ſetting before our eyes an unfortunate Lady, whoſe Love was at once her Folly and her Crime.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:205107:7"/>
+            <head>THE Paſſion of Byblis.</head>
+            <lg>
+               <l>BRight Nymphs, the Objects of Mankind's Deſires,</l>
+               <l>From <hi>Byblis</hi> learn t' avoid inceſtuous Fires:</l>
+               <l>She <hi>Caunus</hi> lov'd, with tenderneſs above</l>
+               <l>The cold endearments of a Siſters Love.</l>
+               <l>At firſt ſhe knew it not, unhappy Maid!</l>
+               <l>To impious Flames by Piety betraid.</l>
+               <l>She frequently would kiſs the beauteous Boy,</l>
+               <l>And thought her Duty what ſhe found her Joy.</l>
+               <l>Her Love for Duty ſhe miſtook with eaſe,</l>
+               <l>Yet was ſurpriz'd that Duty thus ſhould pleaſe.</l>
+               <l>Her twining Arms his lovely Neck would claſp,</l>
+               <l>Fierce was each Kiſs, and furious ev'ry Graſp.</l>
+               <pb n="2" facs="tcp:205107:8"/>
+               <l>Inſenſibly her Paſſion gathers force,</l>
+               <l>And has to Female Stratagems recourſe.</l>
+               <l>About to viſit <hi>Caunus,</hi> e're She goes,</l>
+               <l>Her skilful Maids her wanton Dreſs compoſe;</l>
+               <l>And all the Ornaments of Art prepare</l>
+               <l>To ſet forth all that Heav'n has giv'n the Fair,</l>
+               <l>Ten thouſand <hi>Cupids</hi> in her Eyes, &amp; Graces in her Air.</l>
+               <l>Then in her Glaſs ſh' explores what pow'r there lyes,</l>
+               <l>In a Majeſtic eaſie Meen, and lovely glancing Eyes;</l>
+               <l>Practices Smiles, ſuch by which Souls are caught,</l>
+               <l>Great, God-like Spirits to dependance brought,</l>
+               <l>The Magic by the great Enchantreſs Nature taught.</l>
+               <l>She envies ev'ry Face that's form'd to pleaſe,</l>
+               <l>And wonders why, not knowing her diſeaſe.</l>
+               <l>So men in Hecticks, waſting for their Urn,</l>
+               <l>Hourly conſume, yet feel not that they burn.</l>
+               <l>Pent in her inmoſt Breaſt the raging Fire,</l>
+               <l>Had not as yet flam'd up to high deſire;</l>
+               <l>Her Brother, now her Lord, her Dear ſhe names,</l>
+               <l>And kindred, Love thus tenderly diſclaims.</l>
+               <pb n="3" facs="tcp:205107:8"/>
+               <l>Her Paſſion now ſhe doubts, yet does controul,</l>
+               <l>No guilty thought yet ſtain'd her waking Soul,</l>
+               <l>On it, with Night, the black pollution ſtole.</l>
+               <l>A pleaſing Dream t' her ſide her Brother brings,</l>
+               <l>With panting Breaſts ſhe murmuring to him clings:</l>
+               <l>Strait in her Face offended Nature flies,</l>
+               <l>And Bluſhes dawn around her darkned Eyes,</l>
+               <l>She wakes, but huſh'd &amp; rapt in fearful wonder lies.</l>
+               <l>Her Dream at once can charm her and torment,</l>
+               <l>The aery Omen boads ſome dire Event.</l>
+               <l>A long time mute ſhe all her Soul ſurveys,</l>
+               <l>And then its grief in theſe wild words diſplays.</l>
+               <l>What means the Viſion of the guilty Night?</l>
+               <l>Ah Wretch! What Horror! mix'd with what delight!</l>
+               <l>Why did that lovely ſhape break in upon my ſight?</l>
+               <l>'Tis true, ev'n Envy no defect can find,</l>
+               <l>Or in the Beauties of his Face, or Graces of his mind.</l>
+               <l>Ev'n Envy can contented on him gaze,</l>
+               <l>By liking ſullenly it ſelf amaze,</l>
+               <l>And learn to ſpeak a foreign Language, Praiſe.</l>
+               <pb n="4" facs="tcp:205107:9"/>
+               <l>The Gods have made him fit to be deſir'd,</l>
+               <l>Have made him by themſelves to be admir'd.</l>
+               <l>But oh! a Brother's once endearing name</l>
+               <l>Is now the Foe that's fatal to my Flame.</l>
+               <l>Yet whilſt awake I can continue chaſte,</l>
+               <l>May ev'ry golden Dream be like the laſt.</l>
+               <l>For what vain Fop the ſport of ſuch a Bed</l>
+               <l>Can idly blab? or what dull Libel ſpread?</l>
+               <l>Honor's ſecure, whilſt Pleaſure I perſue,</l>
+               <l>And this falſe bliſs is ſurely worth the true.</l>
+               <l>Bright Queen of Love, and wing'd delicious Boy</l>
+               <l>Soft, ſweet, and ſwift as was my flitting Joy;</l>
+               <l>Into what Heav'n of Rapture was I caught!</l>
+               <l>Too powerful joys for words, too vaſt for thought!</l>
+               <l>By dying Sighs, and broken Murmurs, beſt</l>
+               <l>When abſent mourn'd, and when enjoy'd expreſt.</l>
+               <l>The Viſion did ſuch quick delight diſpenſe,</l>
+               <l>I ſometimes doubt if fancy were not ſenſe.</l>
+               <l>I felt, perfectly felt, what I adore,</l>
+               <l>The God-like touch gave bliſs unknown before.</l>
+               <pb n="5" facs="tcp:205107:9"/>
+               <l>Th' immortal Pleaſure ran thro all my Frame,</l>
+               <l>Thro all my Bones, and inmoſt Marrow came,</l>
+               <l>That melted and ran pouring down before th' im<g ref="char:EOLhyphen"/>petuous Flame.</l>
+               <l>For ever ſhall the charming Memory laſt</l>
+               <l>Of Tranſports, which, alas! <hi>too</hi> quickly paſt!</l>
+               <l>For the Malignant Goddeſs of the Night,</l>
+               <l>Envying my Bliſs, urg'd on her Head-long Flight.</l>
+               <l>O! could we but diſſolve great Nature's tye,</l>
+               <l>How well we link'd in ſtricter Bonds might lye?</l>
+               <l>Who could be fitlier pair'd than thou and I?</l>
+               <l>As thou no Maid can'ſt e're tranſport like me,</l>
+               <l>Who ſuch high Happineſs can give to thee?</l>
+               <l>Ah <hi>Caunus!</hi> that we ev'ry Night like this</l>
+               <l>Might lie entranc'd in vaſt exſtatic Bliſs!</l>
+               <l>Curſt be the time when my great Father did</l>
+               <l>The Deed for me, which I'm with thee forbid;</l>
+               <l>Would I had been (deriv'd from ſome poor Swain)</l>
+               <l>But the moſt loveſome ſhe upon the Plain:</l>
+               <l>What Nature muſt deny me now, the God might then obtain.</l>
+               <pb n="6" facs="tcp:205107:10"/>
+               <l>Ah! who muſt raviſh'd in thy' Embraces be?</l>
+               <l>Exalted above Goddeſſes is ſhe,</l>
+               <l>Faireſt of men! who muſt b'embrac'd by thee.</l>
+               <l>I never can that full content enjoy,</l>
+               <l>Thou Brother! Thou! too dear, too charming Boy!</l>
+               <l>By being thus far mine, doſt all my Hopes deſtroy.</l>
+               <l>But what import or what are then my Dreams,</l>
+               <l>The fond Reſults of Hypochondriack Steams?</l>
+               <l>Or do they as divinely' inſpir'd preſage?</l>
+               <l>The Gods forbid! The Gods repel this Rage!</l>
+               <l>The Gods this Fever of my Soul aſſuage!</l>
+               <l>Yet <hi>Saturn</hi> of his Siſter made his Bride,</l>
+               <l>And in inceſtuous Fires the Thunderer fry'd.</l>
+               <l>But Gods have high Prerogatives, and they</l>
+               <l>Who rule the World with Arbitrary Sway</l>
+               <l>Are unconfin'd by Laws which we obey.</l>
+               <l>Laws by thoſe happy Beings are diſdain'd,</l>
+               <l>Who would b' imperfect if like us reſtrain'd.</l>
+               <l>Then from thy Breaſt expel theſe impious Fires,</l>
+               <l>Tho, with thy Love's, Life's genial Flame expires.</l>
+               <pb n="7" facs="tcp:205107:10"/>
+               <l>Yes: if all other Methods fail, I'le dye,</l>
+               <l>
+                  <hi>Caunus</hi> will kiſs me as I panting lye,</l>
+               <l>To his ſweet Lips, as to its Heav'n, my parting Soul will fly.</l>
+               <l>Yet ſay thou ſhouldſt indulge thy wild Deſire,</l>
+               <l>T' accompliſh it does his Conſent require.</l>
+               <l>What you thus wiſh, and your chief good eſteem,</l>
+               <l>To him may black and execrable ſeem.</l>
+               <l>Yet formerly, to quench a Siſters Flame,</l>
+               <l>
+                  <hi>Macareus</hi> Conſcience did contemn, and Fame.</l>
+               <l>Ah Wretch! haſt thou reſolv'd upon the Deed?</l>
+               <l>Whence can theſe Thoughts? theſe curſt Remarks proceed,</l>
+               <l>Oh whither am I driv'n! O whither toſt!</l>
+               <l>How in tempeſtuous Thought my Reaſon's loſt?</l>
+               <l>Hence ye obſcene Flames, ye Furies hence, go dwell</l>
+               <l>In your own native Soil, profoundeſt Hell.</l>
+               <l>Love the ſweet Youth, but love without a Fault,</l>
+               <l>And love him as the kindeſt Siſter ought.</l>
+            </lg>
+            <pb n="8" facs="tcp:205107:11"/>
+            <lg>
+               <l>But yet did he thus rave for <hi>Byblis,</hi> I</l>
+               <l>Could ne're reſolve to ſee my <hi>Caunus</hi> dye.</l>
+               <l>I ſhould Compaſſion have of him; I ſure</l>
+               <l>Should him, by humoring his frenzy, cure.</l>
+               <l>Well! if thou ſhouldſt that eaſy Creature be,</l>
+               <l>Can'ſt thou abandon'd be to that degree,</l>
+               <l>As to ſpeak firſt? Can'ſt thou for Favor ſue?</l>
+               <l>Thou art a Virgin, great, and modeſt too.</l>
+               <l>Ah! we are modeſt, but becauſe we're frail,</l>
+               <l>O're whom does not Almighty Love prevail?</l>
+            </lg>
+            <lg>
+               <l>But yet th' expedient which I mean to try,</l>
+               <l>Shall both with Baſhfulneſs and Love comply.</l>
+               <l>A Letter ſhall my troubled thoughts convey,</l>
+               <l>And by its black Contents my ſecret Fires betray.</l>
+            </lg>
+            <lg>
+               <l>This Reſolution fix'd her doubtful Mind,</l>
+               <l>Then, on her Arm, her lovely Head reclin'd.</l>
+               <l>Yes, he ſhall know what torturing pains I feel,</l>
+               <l>I can no more my deſperate caſe conceal,</l>
+               <l>Such Frenzy ſoon would its own cauſe reveal.</l>
+               <pb n="9" facs="tcp:205107:11"/>
+               <l>O what infernal flame! What fury's this!</l>
+               <l>Gods! from what height I plunge, to what abyſs!</l>
+               <l>Eternally farewell, O Honor, Vertue, Bliſs!</l>
+               <l>Then with ſad Looks and trembling Hand ſh'indites,</l>
+               <l>Begins and doubts, nay damns what ſcarce ſhe writes.</l>
+               <l>Yet to what now ſhe blames, ſhe ſtrait returns;</l>
+               <l>With Rapture now ſh'invents, what now ſhe burns.</l>
+               <l>Then what this moment to the Flames ſhe dooms,</l>
+               <l>The next ſhe with a whirl of thought reſumes.</l>
+               <l>Inceſſantly ſhe turns her fev'riſh mind,</l>
+               <l>Too diſcompos'd ev'n her own will to find.</l>
+            </lg>
+            <lg>
+               <l>Your Siſter, <hi>(Caunus!)</hi> thus at firſt ſhe wrote,</l>
+               <l>Ah no! his Lover! Siſter thus I blot.</l>
+               <l>Your Lover ſends that health ſhe wants, for I</l>
+               <l>Unleſs you give me health, muſt ſurely dye.</l>
+               <l>As for my Name, O let it not be told,</l>
+               <l>Till promis'd happineſs makes <hi>Byblis</hi> bold!</l>
+               <l>'Tis ſhe who for you hourly waſtes away,</l>
+               <l>Heeding you might have ſeen this ev'ry day.</l>
+               <pb n="10" facs="tcp:205107:12"/>
+               <l>Love ev'ry day ſtill languiſh'd in my look,</l>
+               <l>Which colour, health, and ſprightly joy forſook.</l>
+               <l>How often, when no cauſe of Grief was known,</l>
+               <l>Have I ſome inward, deep diſturbance ſhown?</l>
+               <l>How oft did Tears ſteal from my mournful Eyes,</l>
+               <l>And in my Breaſts convulſive heavings riſe?</l>
+               <l>Then on a ſudden ſadneſs turn'd to rage,</l>
+               <l>And my wild arms did your ſoft limbs engage.</l>
+               <l>As the luxuriant tendrils of the Vine</l>
+               <l>Around the Flm with wanton windings twine,</l>
+               <l>My ſpringing arms flew round and lock'd in thine.</l>
+               <l>And when thy Lips to mine they fiercely brought,</l>
+               <l>My burning Lips at thine for moiſture ſought.</l>
+               <l>No Siſters faint ſalute! no taſteleſs Kiſs!</l>
+               <l>But piercing like a Dove's, and murmuring at its bliſs.</l>
+               <l>But yet tho deep, ah deep! the flaming Dart,</l>
+               <l>Piercing my burning breaſt, transfix'd my heart,</l>
+               <l>Alarm'd, like wretches by nocturnal Fire,</l>
+               <l>And trembling at the terrible deſire,</l>
+               <pb n="11" facs="tcp:205107:12"/>
+               <l>Long time I ſtrove its fury to aſſwage,</l>
+               <l>And long time ſtrugling Virtue ſtopt its rage.</l>
+               <l>This Truth, O all ye Chaſter Powers atteſt!</l>
+               <l>Ye ſaw the fearful conflict in my Breaſt,</l>
+               <l>When Honour, Piety, Remorſe and Shame,</l>
+               <l>My very vitals tore t' expel my flame.</l>
+               <l>In miſery grown obſtinate, I bore</l>
+               <l>What never tender Virgin did before.</l>
+               <l>When what I ſuffer'd other Maids but hear,</l>
+               <l>'Twill wound their gentle hearts, and force a tear.</l>
+               <l>Retreating, long I fought th' unequal field,</l>
+               <l>But now I turn to conquering Love, and yield.</l>
+               <l>I here my ſelf his Slave and yours confeſs,</l>
+               <l>And cry for mercy in extream diſtreſs;</l>
+               <l>But you alone can my ſad ſtate redreſs.</l>
+               <l>Her Life who loves you hangs upon your breath,</l>
+               <l>And upon that alas! depends her Death.</l>
+               <l>I love to that degree, that neither Gods nor Fate,</l>
+               <l>If you pronounce my Doom, have pow'r t' extend my date.</l>
+               <pb n="12" facs="tcp:205107:13"/>
+               <l>My Life or Death determine by your Voice,</l>
+               <l>Can you deliberate in ſuch a choice?</l>
+               <l>Can you be proof againſt ſuch Words as theſe?</l>
+               <l>Theſe from the perſon whom you hate might pleaſe.</l>
+               <l>Me Nature has begun to make your Friend,</l>
+               <l>What Nature has begun a God muſt end.</l>
+               <l>Unſatisfi'd, unbleſt by Nature's tye,</l>
+               <l>All Night I languiſh, and all Day I dye,</l>
+               <l>Till riveted by Love to your dear Breaſt I lye.</l>
+               <l>Let Dotards Slaves to muſty Morals be,</l>
+               <l>Auſterities and Impotence agree.</l>
+               <l>But in us two hot Youth and fierce Deſire</l>
+               <l>To ſublime Raptures furiouſly aſpire,</l>
+               <l>And into right and wrong want leiſure to enquire.</l>
+               <l>Thus young we yet may Innocence pretend,</l>
+               <l>Or grant we know we Natures bounds tranſcend</l>
+               <l>By great examples of our Gods we gloriouſly offend.</l>
+               <l>All Letts t' Enjoyment are remov'd by Fate,</l>
+               <l>Unleſs it be (forbid it Heav'n!) thy Hate.</l>
+               <pb n="13" facs="tcp:205107:13"/>
+               <l>No rigorous Parents interpoſe to break</l>
+               <l>The aſſignations we may hourly make.</l>
+               <l>Our frequent meetings need no ſcandal fear,</l>
+               <l>For intimacy's honourable here.</l>
+               <l>What Spy can our delicious thefts detect?</l>
+               <l>Who can diſcloſe what none can e're ſuſpect?</l>
+               <l>Should ſome bold cenſurer our conduct blame,</l>
+               <l>A Brother's and a Siſter's awful name,</l>
+               <l>Would anſw'ring ſtop the ſawcy mouths of Fame.</l>
+               <l>We' in publick kiſs, embrace, and whiſp'ring walk,</l>
+               <l>And hand in hand ſoft melting things we talk.</l>
+               <l>When two like us in cloſe embraces kiſs,</l>
+               <l>Does there not ſomething uſe to follow this?</l>
+               <l>Upon that ſomething (ah how very ſmall!)</l>
+               <l>Depends my happineſs, my life, my all.</l>
+            </lg>
+            <lg>
+               <l>Pity a wretch, who thus much dares expreſs,</l>
+               <l>Who wrack'd by mortal pangs, dares Love confeſs.</l>
+               <l>Which, whilſt they all my nobler powers controul,</l>
+               <l>Tear forth the ſecret of my tortur'd Soul.</l>
+               <pb n="14" facs="tcp:205107:14"/>
+               <l>If Nature's Law ſeems broke whilſt this you read,</l>
+               <l>Think that for happineſs, for life I plead,</l>
+               <l>Here Nature's ſelf her Law muſt ſuperſede.</l>
+               <l>You ſurely kill me if unkind you prove,</l>
+               <l>O barbarous return of boundleſs Love!</l>
+               <l>Think how upon my Sepulchre 'twill ſound,</l>
+               <l>How ev'ry Heart thro ev'ry Ear 'twill wound;</l>
+               <l>Here <hi>Byblis</hi> lyes, a tender, wretched Maid,</l>
+               <l>By <hi>Caunus</hi> for her Love with Death repaid.</l>
+            </lg>
+            <lg>
+               <l>Thus all on fire her working Mind indites,</l>
+               <l>Till ev'ry Page and Margent's full, ſhe writes.</l>
+               <l>Then ſhe her Crime folds up, and ſhrowds from Sight,</l>
+               <l>And ſealing, ſhuts the monſtrous birth from Light.</l>
+               <l>Now ſhe an old Domeſtic calls by Name,</l>
+               <l>With accents more than half ſuppreſt by Shame.</l>
+               <l>Thou art my very faithful Servant ſtill,</l>
+               <l>With ſecreſy and ſpeed perform my Will.</l>
+               <l>Of this important Letter, here, take care,</l>
+               <l>On it my Life and Fame depend, go bear —</l>
+               <pb n="15" facs="tcp:205107:14"/>
+               <l>Here grief and conſcious ſhame her accents ſmother,</l>
+               <l>Then after a long ſad pauſe—</l>
+               <l>Go bear it to, ſaid ſhe, Ah Gods! —my Brother.</l>
+            </lg>
+            <lg>
+               <l>Now as ſhe from the fatal Writing parts,</l>
+               <l>It falls; ſhe trembling at the Omen, ſtars:</l>
+               <l>Yet fondly to deſtruction on ſhe goes.</l>
+               <l>Her truſty Slave a fit conjuncture choſe;</l>
+               <l>To <hi>Caunus</hi> his apartment he repairs,</l>
+               <l>And to the noble Youth the dreadful Secret bears.</l>
+            </lg>
+            <lg>
+               <l>Rage, horror, wonder, ſeiz'd him at the view,</l>
+               <l>From him the Letter furiouſly he threw.</l>
+               <l>Storming, his Hand upon his Sword he lays,</l>
+               <l>And to the trembling Meſſenger he ſays:</l>
+               <l>Flagitious Pander to inceſtuous Fires!</l>
+               <l>Slave! thou ſhouldſt dye, as thy bold crime requires,</l>
+               <l>Did not the honour of my houſe and name</l>
+               <l>Tell me, thy blood, if ſpilt, would ſpread our ſhame.</l>
+               <pb n="16" facs="tcp:205107:15"/>
+               <l>But quickly from my juſt reſentment fly,</l>
+               <l>Or that ſhall yet prevail, and thou ſhalt dye.</l>
+               <l>This to the Slave, with a ſtern brow he ſaid;</l>
+               <l>He pale at inſtant death, and ſhudd'ring, fled,</l>
+               <l>And with the mortal news ſtruck dying <hi>Byblis</hi> dead.</l>
+            </lg>
+            <lg>
+               <l>An Icy damp, cold as the dart of Death,</l>
+               <l>Thrill'd thro her throbbing breaſt &amp; ſtop'd her breath</l>
+               <l>Life's flame's o're-pow'r'd in ev'ry other part,</l>
+               <l>But ſtill Love's fire maintains it at her heart.</l>
+            </lg>
+            <lg>
+               <l>As ſoon as her returning Spirits gave</l>
+               <l>Juſt ſtrength to mourn, and ſence enough to rave,</l>
+               <l>With hollow voice the trembling air ſhe wounds,</l>
+               <l>And ſoftly ſighs out theſe afflicting ſounds.</l>
+            </lg>
+            <lg>
+               <l>Repell'd! diſdain'd! nay, loath'd! could worſe befal,</l>
+               <l>Thy conduct and thy crime deſerve it all.</l>
+               <l>For why haſt thou, O wretch, to madneſs bold!</l>
+               <l>Thus raſhly thy prodigious Secret told?</l>
+               <pb n="17" facs="tcp:205107:15"/>
+               <l>What Fool would Happineſs, Life, Fame commit</l>
+               <l>To a fond Letter in confuſion writ?</l>
+               <l>Thou ſhouldſt in doubtful terms have firſt addreſt,</l>
+               <l>Th'uncertain depths have ſounded of his Breaſt.</l>
+               <l>Fool! thus preſumptuouſly to leave the Shore,</l>
+               <l>And not the Winds, nor the new Seas explore.</l>
+               <l>Thoſe Winds now roar, and the mad Seas run high,</l>
+               <l>And all things round look hideous to my Eye,</l>
+               <l>A raging Main! and black tempeſtuous Sky!</l>
+               <l>To Death I thro ſurrounding Horrors go,</l>
+               <l>Now, now the Billows on the Rocks the bounding Veſſel throw!</l>
+               <l>And yet by Omens certain and divine,</l>
+               <l>Thou wer't forbid to urge thy dire deſign.</l>
+               <l>In the pronouncing how the Meſſage hung,</l>
+               <l>Foreboding Ruine on thy fault'ring Tongue!</l>
+               <l>Thy Genius whiſper'd thee within, beware!</l>
+               <l>And from without ſome God cry'd out, forbear!</l>
+               <l>Thy Letter by immortal impulſe fell,</l>
+               <l>As thou deliver'd'ſt it (thou ſawſt it well)</l>
+               <pb n="18" facs="tcp:205107:16"/>
+               <l>The Paper, mov'd by ſome eternal mind,</l>
+               <l>Th' accurſed Errant by its flight declin'd:</l>
+               <l>O had thy Hope together fled! but Fate thy Doom deſign'd.</l>
+               <l>Thy purpoſe elſe, by portents thus deterr'd,</l>
+               <l>Thou hadſt giv'n o're: giv'n o're? ah no! deferr'd.</l>
+               <l>Who knows? upon ſome happier day perhaps thou hadſt been heard.</l>
+            </lg>
+            <lg>
+               <l>And yet would any one but thou have ſent,</l>
+               <l>When all thus lay at ſtake? thou ſhouldſt have went.</l>
+               <l>He from thy Lines not half thy ſenſe could know,</l>
+               <l>Thy Eyes thy Love in all its Fury ſhow.</l>
+               <l>H' had ſeen thoſe dying Eyes, and ſuch a Look,</l>
+               <l>As might a fell Barbarians Soul have ſhook.</l>
+               <l>H' had heard the tender'ſt things, and in a tone</l>
+               <l>That's fit t' expreſs a dying Lovers moan.</l>
+               <l>Round his reluctant Neck my Arms I'd flung,</l>
+               <l>And to his Breaſt with ſtrange Convulſions clung.</l>
+               <l>Then proſtrate at his Feet h'had ſeen me lying,</l>
+               <l>There groaning, trembling, fainting, ſwooning, dying.</l>
+               <pb n="19" facs="tcp:205107:16"/>
+               <l>If one of theſe to move his Heart had fail'd,</l>
+               <l>His barbarous Heart, they all had ſure prevail'd.</l>
+            </lg>
+            <lg>
+               <l>Perhaps thy Servant caus'd thy ill ſucceſs,</l>
+               <l>By haſty management without addreſs.</l>
+               <l>He might abſurdly chuſe ſome buſy hour,</l>
+               <l>Too rude and harſh for Love's ſoft tender pow'r.</l>
+               <l>Therefore he fail'd the noble Youth to move,</l>
+               <l>Can one who has thoſe Eyes inexorable prove?</l>
+               <l>His Breaſt's of no impenetrable mold,</l>
+               <l>No Adamantine Bars his Heart infold.</l>
+               <l>He did not from a Tygreſs ſpring, no he</l>
+               <l>Sprung from the ſame ſoft yielding Nymph with me.</l>
+               <l>Come, he muſt yet be mine, I'le try once more,</l>
+               <l>Once more? a thouſand times, I'le ne're give o're.</l>
+            </lg>
+            <lg>
+               <l>True, I could wiſh, if Actions once begun,</l>
+               <l>By empty wiſhes were to be undone.</l>
+               <l>Then could I wiſh, I never had indulg'd</l>
+               <l>This luckleſs Love, at leaſt had ne're divulg'd.</l>
+               <pb n="20" facs="tcp:205107:17"/>
+               <l>But ſince what's paſt ev'n Fate can ne're recall,</l>
+               <l>now muſt through, whate're extreams befall.</l>
+               <l>He'll think if I thus lightly could diſclaim,</l>
+               <l>I lightly entertain'd th' inceſtuous Flame.</l>
+               <l>Perhaps he may ſuſpect ſome cloſe deſign,</l>
+               <l>His Int'reſt with his Fame to undermine.</l>
+               <l>That ſpecious baits were for his Virtue laid,</l>
+               <l>To be to public Infamy betray'd.</l>
+               <l>He'll fancy this ſome common, baſe deſire,</l>
+               <l>Whereas the God the God theſe Ravings does inſpire.</l>
+               <l>His wrathful breath incenſes thus my Blood,</l>
+               <l>Drives on the liquid Fire, and rowls the ſtormy Flood.</l>
+            </lg>
+            <lg>
+               <l>Shouldſt thou deſiſt? the horrid crime's conceiv'd,</l>
+               <l>And Innocence can never, never be retriev'd.</l>
+               <l>Thy Guilt has reach'd a very dreadful height,</l>
+               <l>What? ſo much Guilt? and for it no Delight?</l>
+               <l>Advancing, little can thy Guilt inhaunce,</l>
+               <l>And to the vaſt Delight of Gods it <hi>Byblis</hi> may advance.</l>
+               <pb n="21" facs="tcp:205107:17"/>
+               <l>Thus as ſome eaſe upon her Bed ſhe ſought,</l>
+               <l>Her lab'ring Fancy to Diſtraction wrought,</l>
+               <l>Toſſing, ſhe fluctuates in tempeſtuous thought.</l>
+               <l>Her ſickly mind oppos'd deſigns revolves,</l>
+               <l>What it repents of to repeat reſolves.</l>
+               <l>Her Brother obſtinately ſhe perſues,</l>
+               <l>Often repuls'd, ſhe oft th' Aſſault renews.</l>
+               <l>Her Flame, that found theſe ſtops, more fiercely burn'd,</l>
+               <l>But at the laſt to meer Diſtraction turn'd.</l>
+            </lg>
+            <lg>
+               <l>Poor, hapleſs Beauty! once thy conqu'ring Eyes</l>
+               <l>Could boaſt the nobleſt <hi>Carian</hi> Hearts their Prize,</l>
+               <l>Now mad ſhe lies in ſolitude, on <hi>Caunus</hi> raves and dyes.</l>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <div type="annotations">
+            <pb n="22" facs="tcp:205107:18"/>
+            <head>Annotations</head>
+            <q>
+               <bibl>
+                  <hi>P. 5.</hi>
+               </bibl> WOuld I had been (deriv'd from ſome poor Swain,) <hi>&amp;c.</hi>
+            </q>
+            <p>The <hi>Latin</hi> is, <hi>Tu me vellem generoſior eſſes.</hi>
+            </p>
+            <p>Mr. <hi>Oldham</hi> renders, it thus. <q>Would thou wert noble, I more meanly born</q> He makes her give this reaſon for her Wiſh, <hi>vid.</hi> 
+               <q>Then guiltleſs I'd deſpair'd, and ſuffer'd Scorn.</q>
+            </p>
+            <p>Whereas the reaſon that I make her give is juſt oppoſite to it, <hi>vid.</hi> Then I might guiltleſs have enjoyed my <hi>Caunus. Ovid</hi> expreſſes no reaſon, but implies one; for there is ſomething Pindarical in the ſenſe of the paſſage, and the Connexion is left to be made by the Rea<g ref="char:EOLhyphen"/>der, as we ſhall find anon. In the mean while let us ſee, whither Mr. <hi>Oldham</hi>'s reaſon or mine is that of <hi>Ovid.</hi> To diſcover which let us conſider, which is most agreeable to good ſenſe, and the nature of her Paſſion, and moſt ſuitable to the Deſign of the Poet. It does not ſeem to me to be conſiſtent with good ſenſe, to make <hi>Byblis,</hi> who ſo vehemently deſir'd to enjoy her Brother, and who at the ſame time ſaw the impoſſibility of it, and felt the Plague of Deſpair, wiſh that ſhe had been of a more obſcure Deſcent, rather than of her Brother's illuſtrious Stock; only that with the ſame vehement deſire ſhe might have the ſame Deſpair. Nor does this ſeem to be conſiſtent with the Nature of Love. For they who are throughly ſeiz'd with that Paſſion, place all their Felicity in the beloved Object, and even in Deſpair moſt ardently deſire Poſſeſſion. And ſuch can no more wiſh to be in a Condition of Life, that might render them incapable of enjoying what they love, than any man or woman can truly wiſh to be miſerable. It
+<pb n="23" facs="tcp:205107:18"/>had been therefore more conſonant to good ſenſe, and the Nature of her Paſſion, to make her ſpeak thus. <hi>Had my Birth been more lowly, and I had been tormented with the ſame deſire, tho there had been then an improbability of ſatisfying it, yet conſidering what a Leveller Love is, there had not been then, as there is now, an abſolute impoſſibility of innocently enjoying my</hi> Caunus. To diſcover if this be not <hi>Ovid</hi>'s ſenſe, I think fit with this paſſage to cite what immediately precedes and follows.</p>
+            <q>
+               <l>O ego, ſi liceat mutato nomine jungi,</l>
+               <l>Quam bene, <hi>Caune,</hi> tuo poteram nurus eſſe Parenti!</l>
+               <l>Quam bene, <hi>Caune,</hi> meo poteras gener eſſe Parenti!</l>
+               <l>Omnia Dii facerent eſſent communia nobis</l>
+               <l>Praeter avos, tu me vellem generoſior eſſes.</l>
+               <l>Neſcio quam facies igitur pulcherrime matrem</l>
+            </q>
+            <p>That is to ſay, <hi>Could we but diſſolve the bonds of Nature, how well we might be joyn'd in ſtricter! I wiſh that having every thing elſe in common, we had at leaſt a different Lineage; would I had been inferior to</hi> Caunus, <hi>rather than thus have been equal to him. But alas! this is but a vain wiſh, and therefore another muſt be the happy ſhe who muſt poſſeſs all that I languiſh for. <hi>I believe this will be allow'd to be a juſt explication of</hi> Ovid <hi>'s ſenſe. For the last verſe by the word</hi> igitur <hi>must neceſſarily be an inference, from ſomething expreſſed or implied in the laſt but one. Now that which is implied can be nothing but this.</hi> If you had been of a dif<g ref="char:EOLhyphen"/>ferent Parentage, tho you had been more nobly deſcended, yet there had then been a poſſibility (ſuch is the force of Love) of my being bleſt in innocently poſſeſſing you; which poſſibility now is deſtroyed by Relation. Therefore another,</hi> &amp;c. Beſides, if we do but conſider, that every thing that precedes and follows <hi>Byb<g ref="char:EOLhyphen"/>lis</hi>'s wiſh, that her Brother had been more nobly deſcended, appears plainly to be ſpoke out of a furious deſire of enjoying him; we. need make no doubt but that very wiſh too proceeds from the ſame deſire.</p>
+            <pb n="24" facs="tcp:205107:19"/>
+            <q>
+               <bibl>
+                  <hi>P.</hi> 7.</bibl> To his ſweet Lips as to its Heaven, <hi>&amp;c.</hi>
+            </q>
+            <p>This is not the thought of <hi>Ovid.</hi> Mr. <hi>Sands</hi> has touch'd upon it, but very faintly. Mr. <hi>Oldham</hi> has kept wide of it. But becauſe no thought that can ever be ſubſtituted, can make amends for that of the original, I think my ſelf obliged to do <hi>Ovid</hi> that Juſtice as to inſert it here. The <hi>Latin</hi> is thus then.
+<q>
+                  <l>Aut noſtro vetitus de corde fugabitur ardor,</l>
+                  <l>Aut hoc ſi nequeo, peream precor ipſa, toro<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>
+                  </l>
+                  <l>Mortua componar; poſitae<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> det oſcula frater.</l>
+               </q> That is to ſay, <hi>Either I will expel this inceſtuous Love from my Breaſt, or dye in the attempt, and be laid out on the mournful Herſe.</hi> One would have thought that there had been an end of her and her Paſſion, when by an admirable and ſurprizing return of it, ſhe immediately adds, <hi>poſitae<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> det oſcula Frater. Let my Bro<g ref="char:EOLhyphen"/>ther embrace me as Flie ſenſleſs there.</hi> So that here ſhe ſeems to make proviſion for her Paſſion, againſt a time when it can be no more, to anticipate the ſatisfaction of her Brother's embracing her in the moment in which ſhe cannot be ſenſible of it, and, by imagination in the ſame ſentence, to extend her love beyond that death by which ſhe propounds to end it. This is indeed livelily to paint the extream diſorder of a violent and irregular Paſſion. But what Hand muſt give us a copy of ſo divine an original? Who must not deſpair of imita<g ref="char:EOLhyphen"/>ting ſucceſsfully the wonderful celerity of this incomparable turn?</p>
+            <q>
+               <bibl>
+                  <hi>P.</hi> 12</bibl>
+               <l>All Lets t'enjoyment, <hi>&amp;c. The</hi> Latin <hi>is,</hi>
+               </l>
+               <l>Nec nos aut durus Pater aut reverentia famae</l>
+               <l>Aut Timor impediet.</l>
+            </q>
+            <p>
+               <hi>Mr.</hi> Oldham <hi>has render'd it thus.</hi>
+               <pb n="25" facs="tcp:205107:19"/>
+               <q>
+                  <l>Let neither Awe of Fathers Frowns, nor Shame</l>
+                  <l>For ought that can be told by blabbing Fame,</l>
+                  <l>Nor any Ghaſtlier fantom Fear can frame</l>
+                  <l>Frighten or ſtop us, in the way to Bliſs.</l>
+               </q>
+            </p>
+            <p>So that he makes <hi>Byblis</hi> ſtart ſeveral difficulties enough to frighten her Brother, if he were inclin'd to complyance, and then exhorts him to go on in ſpight of them. Whereas the deſign of <hi>Ovid,</hi> is to make her anſwer ſuch Objections as may probably be made by <hi>Caunus.</hi> The things that can chiefly be objected in ſuch a caſe are two, <hi>viz.</hi> The Rigor of Parents, and Apprehenſion of Infamy. Now neither of theſe have reaſon to frighten us. For ſays ſhe, <hi>Dulcia fraterno ſub nomine furta tegemus.</hi> That is, we ſhall conceal our inceſtuous Love under the diſguiſe of fraternal Affection, and tho we appear ne<g ref="char:EOLhyphen"/>ver ſo fond to our Parents, and the reſt of the World, they will be ra<g ref="char:EOLhyphen"/>ther apt to extol our Piety, than to arraign our Inceſt. But this Verſe, <hi>Dulcia, &amp;c.</hi> which <hi>Byblis</hi> ſpeaks as a reaſon for what pre<g ref="char:EOLhyphen"/>ceded it, looks in Mr. <hi>Oldham</hi> like the Introduction of a new Propo<g ref="char:EOLhyphen"/>ſition.</p>
+            <q>
+               <bibl>
+                  <hi>P.</hi> 19</bibl>
+               <l>Come he muſt yet be mine, <hi>&amp;c.</hi>
+               </l>
+            </q>
+            <p>
+               <hi>The</hi> Latin <hi>is.</hi>
+            </p>
+            <q>
+               <l>Vincetur: repetendus erit, nec taedia coepti</l>
+               <l>Ulla mei capiam, dum ſpiritus iſte manebit.</l>
+            </q>
+            <p>
+               <hi>Mr.</hi> Oldham <hi>has rendered it thus.</hi>
+               <q>
+                  <l>Alive I'll pray, till Breath in Prayers be loſt,</l>
+                  <l>And after come a kind beſeeching Ghoſt.</l>
+               </q>
+            </p>
+            <p>Where he puſhes <hi>Ovid</hi>'s thought a little too far, and indeed be<g ref="char:EOLhyphen"/>yond the bounds of good ſenſe. 'Tis true, I have met with ſome Gen<g ref="char:EOLhyphen"/>tlemen, who admire this paſſage very much, as ſomething forſooth
+<pb n="26" facs="tcp:205107:20"/>very ſoft, But like will to like, ſays the Proverb. For indeed thoſe Gentlemen may be ſaid to be ſoft with a vengeance, I would fain ask them one queſtion. For what ſhould this poor Ghoſt come a begging? For the Charity of the Fleſh? That would be very pleaſant. And yet the Charity of the Fleſh is certainly the buſineſs in queſtion.</p>
+            <q>
+               <bibl>
+                  <hi>P.</hi> 20.</bibl>
+               <l>He'll think if thus, <hi>&amp;c.</hi>
+               </l>
+            </q>
+            <p>
+               <hi>The</hi> Latin <hi>is.</hi>
+            </p>
+            <q>
+               <l>Vel quia deſierim, leviter voluiſſe videbor.</l>
+            </q>
+            <p>
+               <hi>Which Mr.</hi> Oldham <hi>renders thus.</hi>
+               <q>
+                  <l>Should I deſiſt, 'twill be believ'd that I,</l>
+                  <l>By ſlightly asking, taught him to deny.</l>
+               </q>
+            </p>
+            <p>I wonder that a man of Mr. <hi>Oldham's</hi> Senſe and Learning ſhould miſtake <hi>leviter voluiſſe</hi> for ſlightly asking. By which miſtake he has run himſelf upon two abſurdities. For firſt he puts a ſentiment into the mouth of <hi>Byblis,</hi> that is altogether baſe, and unworthy of a Wo<g ref="char:EOLhyphen"/>man of Honor, as if ſhe were afraid of not being thought impudent enough, or of not being thought in good earneſt. Secondly, he makes her bring that as an argument for perſisting in her deſign, which is directly concluſive of the contrary. For what ſhe ſays, in Proſe, and in plain <hi>Engliſh,</hi> is this. <hi>If I ſhould now conquer this Paſſion, and grow once more the vertuous</hi> Byblis, <hi>I am afraid the World, who may come to know what a civil Requeſt I made to my Bro<g ref="char:EOLhyphen"/>ther, and afterwards took the very firſt Denial, I am afraid this ill-natur'd World will believe that I was but in jeſt.</hi> Truly a very pleaſant and very reaſonable Fear. But what does ſhe call ſlightly asking? The ſending ſuch a Letter as hers? For my part I know but one way ſhe had to put the buſineſs more home to him. This cannot be the ſenſe of <hi>Ovid.</hi> For tho. <hi>Ovid</hi> is not the juſteſt man in the World in his thinking, (for juſtneſs is not his Talent) yet he ſeldom thinks ſo prepoſterouſly, nor could Mr. <hi>Oldham</hi> have done it, if he had not writ this in a hurry. By <hi>leviter voluiſſe</hi> then is meant not
+<pb n="27" facs="tcp:205107:20"/>ſlightly to have asked, but lightly to have inclin'd my Will; and then the meaning has not only ſomething very ſenſible in it, but very extra<g ref="char:EOLhyphen"/>ordinary and very noble. For thus <hi>Byblis</hi> is made to aſſert her Honor, by her very perſiſting in a moſt execrable crime, for now the ſenſe runs thus. If I ſhould now upon this firſt Repulſe give over, then men will reaſonably conclude, that ſince it was in my power ſo ſoon to deſiſt, it was in my power not to have given way to this Paſſion at firſt; and that ſhe who could ſo eaſily ſtop its progreſs, might much more eaſily have prevented its very beginning; and con<g ref="char:EOLhyphen"/>ſequently the advances which I have made to my Brother, will be imputed rather to my natural inclination to ſuch horrible Wick<g ref="char:EOLhyphen"/>edneſs, or ſome ſtrange and baſe infirmity in me, than the force of a Paſſion inflicted by an offended God. But if after having ſhown ſo much Remorſe, and ſo much Reluctancy, I ſtill perſiſt, notwithſtanding that Remorſe, notwithſtanding that Reluctancy, nay notwithſtanding Deſpair; why then my Brother and all the World muſt acknowledge that <hi>Byblis</hi> is not to blame; but that ſince ſhe does what doing ſhe diſapproves, and ſollicits a Vice, the very thought of which ſtrikes her with Horror, it is demon<g ref="char:EOLhyphen"/>ſtrably evident that her Paſſion is ſupernatural; and is not actu<g ref="char:EOLhyphen"/>ated by her own Will, but ſome more ſublime, ſome eternal prin<g ref="char:EOLhyphen"/>ciple which Mortals in vain reſiſt.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </back>
+   </text>
+</TEI>
